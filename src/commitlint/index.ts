@@ -24,5 +24,7 @@ export const commitlint = {
     ],
     // subject 大小写不做校验
     'subject-case': [0],
+    // 内容行长度不做校验
+    'body-max-line-length': [0],
   },
 };
