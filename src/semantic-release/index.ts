@@ -1,9 +1,11 @@
+import type { Options as SemRelOptions } from 'semantic-release';
 import { type Options, createConfig } from 'semantic-release-config-gitmoji/lib/createConfig';
 
 export const options: Options = {
   changelogTitle: `<a name="readme-top"></a>
 
 # Changelog`,
+  message: 'chore(release): ${nextRelease.gitTag} [skip ci] \n\n${nextRelease.notes}',
   releaseRules: [
     {
       release: 'minor',
@@ -68,7 +70,24 @@ export const options: Options = {
   ],
 } as Options;
 
+export const overwriteSemRelPlugins = (fullOptions: SemRelOptions) => {
+  if (fullOptions.plugins) {
+    for (const plugin of fullOptions.plugins) {
+      if (plugin[0] === '@semantic-release/commit-analyzer') {
+        plugin[1].config = 'conventional-changelog-angular';
+      }
+      if (plugin[0] === '@semantic-release/release-notes-generator') {
+        plugin[1].parserOpts = {
+          headerPattern:
+            /^(?<type>\w*)(?:\((?<scope>.*)\))?!?:\s(?<subject>(?:(?!#).)*(?!\s).)(?:\s\(?(?<ticket>#\d*)\)?)?$/,
+        };
+      }
+    }
+  }
+  return fullOptions;
+};
+
 export const semanticRelease = {
   $schema: 'https://json.schemastore.org/semantic-release',
-  ...createConfig(options),
+  ...overwriteSemRelPlugins(createConfig(options)),
 };
