@@ -1,0 +1,38 @@
+<a name="readme-top"></a>
+
+# Changelog
+
+## Version 1.0.0
+
+<sup>Released on **2023-12-21**</sup>
+
+#### ✨ Features
+
+- **commitlint**: Disable body-max-line-length rule.
+- **misc**: Init project.
+
+#### 🐛 Bug Fixes
+
+- **semantic-release**: Incomplete release log generation.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **commitlint**: Disable body-max-line-length rule ([4d2b274](https://github.com/yuntijs/yunti-lint/commit/4d2b274))
+- **misc**: Init project ([d1d1bc7](https://github.com/yuntijs/yunti-lint/commit/d1d1bc7))
+
+#### What's fixed
+
+- **semantic-release**: Incomplete release log generation ([b7e04f6](https://github.com/yuntijs/yunti-lint/commit/b7e04f6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
