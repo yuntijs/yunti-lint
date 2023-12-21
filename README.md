@@ -25,7 +25,7 @@ ESlint, Stylelint, Commitlint, Prettier, Remark, Semantic Release config for Yun
 
 </div>
 
-![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![](https://raw.githubusercontent.com/andreasbm/readme/main/assets/lines/rainbow.png)
 
 <details>
 <summary><kbd>Table of contents</kbd></summary>
@@ -60,9 +60,9 @@ $ pnpm add eslint prettier @yuntijs/lint -D
 To use template ignore files, run the following command:
 
 ```bash
-$ curl -O https://raw.githubusercontent.com/yuntijs/yunti-lint/master/.eslintignore
-$ curl -O https://raw.githubusercontent.com/yuntijs/yunti-lint/master/.gitignore
-$ curl -O https://raw.githubusercontent.com/yuntijs/yunti-lint/master/.prettierignore
+$ curl -O https://raw.githubusercontent.com/yuntijs/yunti-lint/main/.eslintignore
+$ curl -O https://raw.githubusercontent.com/yuntijs/yunti-lint/main/.gitignore
+$ curl -O https://raw.githubusercontent.com/yuntijs/yunti-lint/main/.prettierignore
 ```
 
 <div align="right">
@@ -234,7 +234,7 @@ This project is [MIT](./LICENSE) licensed.
 [github-forks-shield]: https://img.shields.io/github/forks/yuntijs/yunti-lint?color=8ae8ff&labelColor=black&style=flat-square
 [github-issues-link]: https://github.com/yuntijs/yunti-lint/issues
 [github-issues-shield]: https://img.shields.io/github/issues/yuntijs/yunti-lint?color=ff80eb&labelColor=black&style=flat-square
-[github-license-link]: https://github.com/yuntijs/yunti-lint/blob/master/LICENSE
+[github-license-link]: https://github.com/yuntijs/yunti-lint/blob/main/LICENSE
 [github-license-shield]: https://img.shields.io/github/license/yuntijs/yunti-lint?color=white&labelColor=black&style=flat-square
 [github-releasedate-link]: https://github.com/yuntijs/yunti-lint/releases
 [github-releasedate-shield]: https://img.shields.io/github/release-date/yuntijs/yunti-lint?labelColor=black&style=flat-square
@@ -246,6 +246,6 @@ This project is [MIT](./LICENSE) licensed.
 [npm-downloads-shield]: https://img.shields.io/npm/dt/@yuntijs/lint?labelColor=black&style=flat-square
 [npm-release-link]: https://www.npmjs.com/package/@yuntijs/lint
 [npm-release-shield]: https://img.shields.io/npm/v/@yuntijs/lint?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
-[pr-welcome-link]: https://github.com/yuntijs/yunti-chat/pulls
+[pr-welcome-link]: https://github.com/yuntijs/yunti-ui/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/☁️_pr_welcome-%E2%86%92-ffcb47?labelColor=black&style=for-the-badge
 [profile-link]: https://github.com/yuntijs
