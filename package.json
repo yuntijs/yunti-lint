@@ -49,17 +49,17 @@
       "prettier --write --no-error-on-unmatched-pattern"
     ],
     "*.{css,less}": [
-      "stylelint",
+      "stylelint --fix",
       "prettier --write"
     ],
     "*.{js,jsx}": [
-      "stylelint",
-      "eslint",
+      "stylelint --fix",
+      "eslint --fix",
       "prettier --write"
     ],
     "*.{ts,tsx}": [
-      "stylelint",
-      "eslint",
+      "stylelint --fix",
+      "eslint --fix",
       "prettier --parser=typescript --write"
     ]
   },
