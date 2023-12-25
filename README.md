@@ -54,15 +54,15 @@ ESlint, Stylelint, Commitlint, Prettier, Remark, Semantic Release config for Yun
 To install YuntiJS Lint, run the following command:
 
 ```bash
-$ pnpm add eslint prettier @yuntijs/lint -D
+pnpm add eslint@^8 prettier@^3 @yuntijs/lint -D
 ```
 
 To use template ignore files, run the following command:
 
 ```bash
-$ curl -O https://raw.githubusercontent.com/yuntijs/yunti-lint/main/.eslintignore
-$ curl -O https://raw.githubusercontent.com/yuntijs/yunti-lint/main/.gitignore
-$ curl -O https://raw.githubusercontent.com/yuntijs/yunti-lint/main/.prettierignore
+curl -O https://raw.githubusercontent.com/yuntijs/yunti-lint/main/.eslintignore
+curl -O https://raw.githubusercontent.com/yuntijs/yunti-lint/main/.gitignore
+curl -O https://raw.githubusercontent.com/yuntijs/yunti-lint/main/.prettierignore
 ```
 
 <div align="right">
@@ -110,7 +110,7 @@ module.exports = require('@yuntijs/lint').prettier;
 install stylelint first:
 
 ```bash
-$ pnpm add stylelint -D
+pnpm add stylelint@^15 -D
 ```
 
 config can be found at [`.stylelintrc.js`](/src/stylelint/index.ts)
@@ -124,7 +124,7 @@ module.exports = require('@yuntijs/lint').stylelint;
 install commitlint first:
 
 ```bash
-$ pnpm add commitlint -D
+pnpm add commitlint@^18 -D
 ```
 
 config can be found at [`.commitlintrc.js`](/src/commitlint/index.ts)
@@ -146,7 +146,7 @@ module.exports = require('@yuntijs/lint').changelog;
 install semantic-release first:
 
 ```bash
-$ pnpm add semantic-release -D
+pnpm add semantic-release@^21 -D
 ```
 
 config can be found at [`.releaserc.js`](/src/semantic-release/index.ts)
@@ -160,7 +160,7 @@ module.exports = require('@yuntijs/lint').semanticRelease;
 install remark first:
 
 ```bash
-$ pnpm add remark remark-cli -D
+pnpm add remark@^14 remark-cli@^11 -D
 ```
 
 config can be found at [`.remarkrc.js`](/src/remarklint/index.ts)
@@ -184,10 +184,10 @@ You can use Github Codespaces for online development:
 Or clone it for local development:
 
 ```bash
-$ git clone https://github.com/yuntijs/yunti-lint.git
-$ cd yuntijs/lint
-$ pnpm install
-$ pnpm start
+git clone https://github.com/yuntijs/yunti-lint.git
+cd yuntijs/lint
+pnpm install
+pnpm start
 ```
 
 <div align="right">
