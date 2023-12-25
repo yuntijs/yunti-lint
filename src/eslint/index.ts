@@ -115,6 +115,15 @@ export const eslint = {
     'react/jsx-key': 'error',
     ...eslintConfigPrettier.rules,
   },
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        'no-undef': 'off',
+        'no-unused-expressions': 'off',
+      },
+    },
+  ],
   globals: {
     __root__dirname: true,
     Cookies: true,
