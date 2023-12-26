@@ -95,6 +95,8 @@ config can be found at [`.eslintrc.js`](/src/eslint/index.ts)
 
 ```js
 module.exports = require('@yuntijs/lint').eslint;
+// ~ for Node.js project should use eslintNodejs
+// module.exports = require('@yuntijs/lint').eslintNodejs;
 ```
 
 ### Prettier
@@ -153,6 +155,8 @@ config can be found at [`.releaserc.js`](/src/semantic-release/index.ts)
 
 ```js
 module.exports = require('@yuntijs/lint').semanticRelease;
+// ~ for monoRepo project should use semanticReleaseMonoRepo
+// module.exports = require('@yuntijs/lint').semanticReleaseMonoRepo;
 ```
 
 ### Remark
