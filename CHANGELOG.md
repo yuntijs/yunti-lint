@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.4.0](https://github.com/yuntijs/yunti-lint/compare/v1.3.1...v1.4.0)
+
+<sup>Released on **2023-12-26**</sup>
+
+#### ✨ Features
+
+- **eslint**: Add separate config for Node.js.
+
+#### 🐛 Bug Fixes
+
+- **prettier**: Enable decorators-legacy for importOrderParserPlugins.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **eslint**: Add separate config for Node.js ([e341b02](https://github.com/yuntijs/yunti-lint/commit/e341b02))
+
+#### What's fixed
+
+- **prettier**: Enable decorators-legacy for importOrderParserPlugins ([9c4ec77](https://github.com/yuntijs/yunti-lint/commit/9c4ec77))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.3.1](https://github.com/yuntijs/yunti-lint/compare/v1.3.0...v1.3.1)
 
 <sup>Released on **2023-12-26**</sup>
