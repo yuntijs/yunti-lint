@@ -28,6 +28,17 @@ export const stylelint = {
         'value-no-vendor-prefix': true,
       },
     },
+    {
+      files: ['*.less'],
+      rules: {
+        'selector-pseudo-class-no-unknown': [
+          true,
+          {
+            ignorePseudoClasses: ['global'],
+          },
+        ],
+      },
+    },
   ],
   plugins: ['stylelint-order'],
   // ~ merge from stylelint-config-tenx
@@ -49,5 +60,7 @@ export const stylelint = {
     'selector-pseudo-element-colon-notation': undefined,
     'unit-no-unknown': undefined,
     'value-list-max-empty-lines': undefined,
+    'alpha-value-notation': 'number',
+    'selector-class-pattern': undefined,
   },
 };
