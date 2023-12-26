@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.3.1](https://github.com/yuntijs/yunti-lint/compare/v1.3.0...v1.3.1)
+
+<sup>Released on **2023-12-26**</sup>
+
+#### 🐛 Bug Fixes
+
+- **eslint**: Disable rule: unicorn/prefer-node-protocol.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **eslint**: Disable rule: unicorn/prefer-node-protocol ([76e442d](https://github.com/yuntijs/yunti-lint/commit/76e442d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.3.0](https://github.com/yuntijs/yunti-lint/compare/v1.2.0...v1.3.0)
 
 <sup>Released on **2023-12-26**</sup>
