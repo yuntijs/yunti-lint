@@ -4,6 +4,7 @@ export const prettier = {
   bracketSpacing: true,
   endOfLine: 'lf',
   importOrder: ['<THIRD_PARTY_MODULES>', '^@/(.*)$', '^[./]'],
+  importOrderParserPlugins: ['typescript', 'jsx', 'decorators-legacy'],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
   overrides: [
