@@ -1,6 +1,7 @@
 export * from './changelog';
 export * from './commitlint';
 export * from './eslint';
+export * from './eslint/nodejs';
 export * from './prettier';
 export * from './remarklint';
 export * from './semantic-release';
