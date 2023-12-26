@@ -46,7 +46,6 @@ export const eslint = {
     'unicorn/prefer-export-from': 'warn',
     'unicorn/prefer-ternary': 'warn',
     'unicorn/prefer-number-properties': 'warn',
-    'unicorn/prefer-node-protocol': 'warn',
     'unicorn/no-lonely-if': 'warn',
     'unused-imports/no-unused-imports': 'warn',
     'unicorn/text-encoding-identifier-case': 'warn',
@@ -83,6 +82,7 @@ export const eslint = {
     'react/no-unescaped-entities': 'warn',
     'react/no-unknown-property': 'warn',
     // ~ merge from eslint-config-tenx
+    'unicorn/prefer-node-protocol': 0,
     'unicorn/consistent-destructuring': 0,
     'unicorn/no-null': 0,
     'unicorn/prefer-top-level-await': 0,
