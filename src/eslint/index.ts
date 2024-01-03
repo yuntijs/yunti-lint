@@ -135,6 +135,7 @@ export const eslint = {
       rules: {
         'no-undef': 'off',
         'no-unused-expressions': 'off',
+        'no-shadow': 'off',
       },
     },
   ],
