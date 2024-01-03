@@ -41,6 +41,7 @@ export const remarklint = {
     // ----- Overrides ---------------------------------------------------------
     ['remark-lint-list-item-indent', 'space'],
     ['remark-lint-list-item-spacing', { checkBlanks: true }],
+    ['remark-lint-maximum-line-length', 100],
     ['remark-lint-no-duplicate-headings', false],
     ['remark-lint-no-file-name-irregular-characters', '\\.a-zA-Z0-9-_'],
     ['remark-lint-no-file-name-mixed-case', false],
