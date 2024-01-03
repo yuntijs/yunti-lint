@@ -62,5 +62,9 @@ export const stylelint = {
     'value-list-max-empty-lines': undefined,
     'alpha-value-notation': 'number',
     'selector-class-pattern': undefined,
+
+    // ~ disable deprecated rules
+    'media-feature-range-operator-space-after': undefined,
+    'media-feature-range-operator-space-before': undefined,
   },
 };

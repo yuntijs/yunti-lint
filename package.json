@@ -25,7 +25,7 @@
   "scripts": {
     "build": "father build",
     "dev": "father dev",
-    "lint": "npm run lint:es && npm run lint:style",
+    "lint": "npm run lint:es && npm run lint:style && nr lint:md",
     "lint-fix": "npm run lint-fix:es && npm run lint-fix:style",
     "lint-fix:es": "eslint \"{src,tests}/**/*.{js,jsx,ts,tsx}\" --fix",
     "lint-fix:style": "stylelint \"{src,tests}/**/*.{css,less,js,jsx,ts,tsx}\" --fix",
