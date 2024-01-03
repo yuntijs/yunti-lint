@@ -23,11 +23,13 @@ bun.lockb
 .coverage
 .eslintcache
 .stylelintcache
+coverage
 
 # production
 dist
 es
 lib
+umd
 logs
 test-output
 
