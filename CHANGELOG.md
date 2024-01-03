@@ -2,6 +2,41 @@
 
 # Changelog
 
+## [Version 1.5.0](https://github.com/yuntijs/yunti-lint/compare/v1.4.0...v1.5.0)
+
+<sup>Released on **2024-01-03**</sup>
+
+#### ✨ Features
+
+- **ignore**: Add coverage to ignore files.
+- **remarklint**: Change maximum-line-length to 100.
+
+#### 🐛 Bug Fixes
+
+- **eslint**: Disable rule no-shadow for ts files.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **ignore**: Add coverage to ignore files ([2e833b7](https://github.com/yuntijs/yunti-lint/commit/2e833b7))
+- **remarklint**: Change maximum-line-length to 100 ([b976a37](https://github.com/yuntijs/yunti-lint/commit/b976a37))
+
+#### What's fixed
+
+- **eslint**: Disable rule no-shadow for ts files ([cd4a077](https://github.com/yuntijs/yunti-lint/commit/cd4a077))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.4.0](https://github.com/yuntijs/yunti-lint/compare/v1.3.1...v1.4.0)
 
 <sup>Released on **2023-12-26**</sup>
