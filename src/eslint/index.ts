@@ -30,6 +30,8 @@ export const eslint = {
     'unicorn/prefer-code-point': 'warn',
     'unicorn/prefer-logical-operator-over-ternary': 0,
     'unicorn/prefer-module': 0,
+    // 禁用这条规则的原因 => https://github.com/yuntijs/lowcode-tools/commit/7c9e8e74841dceb44cbba6a9e0879fcf45b6511d#diff-93b5caf9c960ad24ccdb47d454518126952db3bd93941042f68ff2e9d7e3c7f1R39-R42
+    'unicorn/prefer-regexp-test': 0,
     'unicorn/prefer-spread': 'warn',
     'unicorn/prefer-string-replace-all': 'warn',
     'unicorn/prefer-type-error': 'warn',
