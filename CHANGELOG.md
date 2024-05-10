@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.6.0](https://github.com/yuntijs/yunti-lint/compare/v1.5.2...v1.6.0)
+
+<sup>Released on **2024-05-10**</sup>
+
+#### ✨ Features
+
+- **stylelint**: Disable rule => selector-id-pattern.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **stylelint**: Disable rule => selector-id-pattern ([d2dbb6a](https://github.com/yuntijs/yunti-lint/commit/d2dbb6a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.5.2](https://github.com/yuntijs/yunti-lint/compare/v1.5.1...v1.5.2)
 
 <sup>Released on **2024-03-19**</sup>
