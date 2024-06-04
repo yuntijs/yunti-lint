@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.7.0](https://github.com/yuntijs/yunti-lint/compare/v1.6.0...v1.7.0)
+
+<sup>Released on **2024-06-04**</sup>
+
+#### ✨ Features
+
+- **eslint**: Add react hooks rules.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **eslint**: Add react hooks rules ([f52c00e](https://github.com/yuntijs/yunti-lint/commit/f52c00e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.6.0](https://github.com/yuntijs/yunti-lint/compare/v1.5.2...v1.6.0)
 
 <sup>Released on **2024-05-10**</sup>
