@@ -2,6 +2,12 @@
 
 # Changelog
 
+# [2.0.0](https://github.com/yuntijs/yunti-lint/compare/v1.7.1...v2.0.0) (2026-01-04)
+
+### Features
+
+- bump semantic-release\@25 \[force major] ([aacc6ee](https://github.com/yuntijs/yunti-lint/commit/aacc6eec6eb3197c60c05828875d06b328217015))
+
 ### [Version 1.7.1](https://github.com/yuntijs/yunti-lint/compare/v1.7.0...v1.7.1)
 
 <sup>Released on **2024-07-24**</sup>
