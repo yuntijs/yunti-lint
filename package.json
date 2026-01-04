@@ -1,6 +1,6 @@
 {
   "name": "@yuntijs/lint",
-  "version": "1.7.1",
+  "version": "2.0.0",
   "description": "📐 ESlint, Stylelint, Commitlint, Prettier, Remark, Semantic Release config for YuntiJS",
   "keywords": [
     "yuntijs",
@@ -65,6 +65,8 @@
   },
   "dependencies": {
     "@commitlint/config-conventional": "^18.4.3",
+    "@semantic-release/changelog": "^6",
+    "@semantic-release/git": "^10",
     "@trivago/prettier-plugin-sort-imports": "^4",
     "@typescript-eslint/eslint-plugin": "^6",
     "@typescript-eslint/parser": "^6",
@@ -119,7 +121,6 @@
     "remark-sort-definitions": "^1",
     "remark-textr": "^5",
     "remark-toc": "^9",
-    "semantic-release-config-gitmoji": "^1",
     "stylelint-config-clean-order": "^5",
     "stylelint-config-recommended": "^13",
     "stylelint-less": "^2",
@@ -128,7 +129,7 @@
   },
   "devDependencies": {
     "@types/eslint-config-prettier": "^6.11.3",
-    "@types/node": "^18",
+    "@types/node": "^24",
     "clean-pkg-json": "^1",
     "commitlint": "^18",
     "eslint": "^8",
@@ -139,7 +140,7 @@
     "react": "^18.2.0",
     "remark": "^14",
     "remark-cli": "^11",
-    "semantic-release": "^21",
+    "semantic-release": "^25",
     "stylelint": "^15",
     "typescript": "^5"
   },
@@ -147,9 +148,9 @@
     "eslint": ">=8.42",
     "prettier": ">=3"
   },
-  "packageManager": "pnpm@8.12.1",
+  "packageManager": "pnpm@10.27.0",
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org/"
   }
 }
