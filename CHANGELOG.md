@@ -2,6 +2,12 @@
 
 # Changelog
 
+## [2.0.1](https://github.com/yuntijs/yunti-lint/compare/v2.0.0...v2.0.1) (2026-01-05)
+
+### Bug Fixes
+
+- use \*_/_ glob pattern to match subjects containing slashes ([c4abb65](https://github.com/yuntijs/yunti-lint/commit/c4abb65ab570ffebc904e9b71a93f06b131f2ddb))
+
 # [2.0.0](https://github.com/yuntijs/yunti-lint/compare/v1.7.1...v2.0.0) (2026-01-04)
 
 ### Features

@@ -1,6 +1,6 @@
 {
   "name": "@yuntijs/lint",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "📐 ESlint, Stylelint, Commitlint, Prettier, Remark, Semantic Release config for YuntiJS",
   "keywords": [
     "yuntijs",
